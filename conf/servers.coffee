@@ -17,9 +17,8 @@ module.exports =
         #'masson/core/yum'
         # Security
         #'masson/core/security'
-        #'masson/core/iptables'
-        #'masson/core/krb5_client'
-        'ryba/mongodb'
+        'masson/core/iptables'
+        'masson/core/krb5_client'
         'ryba/nagvis'
         'ryba/shinken/scheduler'
         'ryba/shinken/poller'

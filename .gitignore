@@ -4,3 +4,5 @@
 /conf/user*
 /resources/cache/*
 !.gitignore
+/cache
+/build

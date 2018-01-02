@@ -9,10 +9,8 @@ if [ ! -f conf/user.coffee ]; then
   echo > conf/user.coffee
 fi
 
-./node_modules/ryba/bin/ryba \
--c ./conf/config.coffee \
--c ./conf/monitoring.coffee \
+./node_modules/ryba/bin/capacity \
+  -c ./conf/config.coffee \
   -c ./conf/uid_gid.coffee \
-  -c ./conf/capacity.coffee \
   -c ./conf/user.coffee \
   $@
